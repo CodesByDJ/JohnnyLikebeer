@@ -5,18 +5,20 @@ h1{
 }
 
 body{
-    background-color:#59392B;
+    background-color:#f0eeeb;
 }
 h2{
     color:orange;
     font-family: 'Times New Roman', Times, serif;
     Font-size: 40px;
     text-align: center;
+    text-shadow: -7px 4px 3px black;
 }
 #tb1{
     border:2px solid;
     Background-color:#ffbe72;
-    
+    max-width: 80%;
+   
     
 }
 #navlink{
@@ -98,9 +100,11 @@ h2{
 }
 h3{
     font-size:30px;
-    color:orange;
+    color:rgb(10, 151, 5);
+    text-align: center;
     font-style:italic;
     text-decoration:underline;
+    text-shadow: -3px 2px 2px black;
 
 
 
@@ -109,6 +113,7 @@ h3{
     border: 3px solid;
     border-top:40%;
     width: auto;
+    max-width: 50%;
    margin-left: auto;
     height:auto;
     background-Color:#ffbe72;
@@ -174,7 +179,7 @@ button:active{
     
 }
 #fbl{
-    color:white;
+    color: black;
     font-size:50px;
 }
 #tbb{
