@@ -16,7 +16,7 @@ h2{
 }
 #tb1{
     border:2px solid;
-    Background-color:#ffbe72;
+    Background-color:grey;
     max-width: 80%;
    
     
@@ -28,6 +28,13 @@ h2{
     animation: 3s linear 1s ease-in;
     
     
+}
+#TBR{
+    border: 4px solid;
+    border-color: black;
+    color:black;
+    
+
 }
 #navlink:hover{
     animation: navslide;
