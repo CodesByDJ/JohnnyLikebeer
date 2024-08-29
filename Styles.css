@@ -2,6 +2,7 @@ h1{
     color:orange;
     text-align:center;
     text-shadow: -7px 4px 3px black;
+    border-bottom: dotted orange; 
 }
 
 body{
@@ -16,8 +17,9 @@ h2{
 }
 #tb1{
     border:2px solid;
-    Background-color:grey;
+    Background-color:yellow;
     max-width: 80%;
+    
    
     
 }
@@ -57,6 +59,14 @@ h2{
     border-color:red;
     padding-left:3px;
     animation: navslide;
+}
+#navlink5
+{
+    border-left:5px solid;
+    border-color:white;
+    padding-left:3px;
+    animation: navslide;
+    
 }
 @keyframes navslide{
     from{transform: translatex(110vh);}
@@ -141,14 +151,8 @@ h3{
     position:relative;
     overflow:hidden;
     margin-bottom:30px;
-    
-    
-    
-    
     margin-top:60px;
     
-    
-
 }
 
 .CPI{
@@ -167,9 +171,9 @@ button:active{
     background-color:purple;
 }
 .medium-btn{
-    width: 70px;
-    height: 25px;
-    border-radius:10px;
+    width: 10pc;
+    height: 50px;
+    border-radius: 35px;
 }
 #FB{
     color:#ffbe72
@@ -191,15 +195,58 @@ button:active{
 }
 #tbb{
     
+    
     border: 4px solid;
     width: 100%;
-    background-color: #ffbe72;
+    background-color: white;
     text-align:center;
 
 }
+#backToTop
+{
+    display: block;
+    margin:auto;
+    text-shadow: -3px 2px 2px black;
+    height: 30px;
+    width: 10pc;
+    color:white;
+    background-color: grey;
+    
+
+}
+#fname
+{
+    font-size: 40px;
+}
+#fnl
+{
+    font-size: 40px;
+
+}
+#lname
+{
+    font-size: 40px;
+
+}
+#lnl
+{
+    font-size: 40px;
+
+}
+#email
+{
+    font-size: 40px;
+
+}
+#eml
+{
+    font-size: 40px;
+}
+
 
 
 .footer{
+    
     position: fixed;
     bottom: 0;
     left:50%;
