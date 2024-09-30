@@ -242,6 +242,21 @@ button:active{
 {
     font-size: 40px;
 }
+.shopTable
+{
+    border:2px solid black;
+    height:3px;
+    width:auto;
+    background-color: #ffbe72;
+    text-align:center;
+    margin-left:40%;
+
+}
+#tablecellrow
+{
+    border: 2px solid black;
+
+}
 
 
 
