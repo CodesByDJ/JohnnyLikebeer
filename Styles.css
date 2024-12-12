@@ -28,6 +28,7 @@ h2{
     Background-color:yellow;
     max-width: 80%;
     
+    
    
     
 }
@@ -42,7 +43,7 @@ h2{
 #TBR{
     border: 4px solid;
     border-color: black;
-    color:black;
+    background-color:black;
     
 
 }
@@ -326,6 +327,21 @@ button:active{
 #eml
 {
     font-size: 40px;
+}
+.shopTable
+{
+    border:2px solid black;
+    height:3px;
+    width:auto;
+    background-color: #ffbe72;
+    text-align:center;
+    margin-left:40%;
+
+}
+#tablecellrow
+{
+    border: 2px solid black;
+
 }
 .shop-table
 {
