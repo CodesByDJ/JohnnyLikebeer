@@ -3,54 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Styles.css">
     <title>Shop</title>
 </head>
-<body>
-    <header>
-        <link rel="Stylesheet" href="Styles.css">
-        <h1 style="font-size: 3pc;">Shop</h1>
-        <table id="tb1">
-            <tr>
-                 <td id="TBR" >
-                 <a id="navlink"href="#aboutme" title="About me">About Me</a> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a id="navlink2" href="#socials"> Socials</a>
-    
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a id="navlink3" href="#feedback"> Feedback</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a id="navlink4" href="Page2.html"> Contact us</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a id="navlink5" href="shop.html"> Shop</a>
-                </td>
-            </tr>
-        </table>
-    </header>
-    <div>
-        <form>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Company</th>
-                    <th>Quanity</th>
-                </tr>
-                
-            </table>
+<header>
+    <section class="header-section">
+        <h1 class="header-title">Shop</h1>
+        <br>
+        <nav class="linkbox">
+            <a id="homelink" name="HomePage"href="index.html">Home</a>
+            <a id="page2link" name="Page 2 link"href="Page2.html">Page 2</a>
+            <a id="shoplink" name="Shop link"href="shop.html">Shop</a>
+        </nav>
+        
+        <hr id="header-hr">
+    </section>
 
-        </form>
-    </div>
+</header>
+<body>
+   
+    <main>
+        <section>
+        
+            <fieldset class="shop-table">
+                <table >
+                    <th>
+                        <tr>
+                            <p> the game needs something new</p>
+                        </tr>
+                    <th>
+                        <tr>
+                            <P>the game has just begun</P>
+                        </tr>
+                            
+                    </th>
+                    
+                    <th>
+                            <p>the game isnt ober</p>
+                    </th>
+
+                </table>
+            <label for="item1">
+                This is beer one.
+                <input type="file">
+                <input id="item1"type="number"  minlength="0" maxlength="05"></input>
+                <input for="item1" type="submit">
+            </label>
+            </fieldset>
+            <fieldset>
+            <label for="item2">
+                This is beer two.
+                <input type="file">
+                <input id="item2"type="number"  minlength="0" maxlength="05"></input>
+                <input for="item2"type="submit">
+            </label>
+            </fieldset>
+            <fieldset>
+            <label for="item3">
+                This is beer three.
+                <input type="file">
+                <input id="item3"type="number"  minlength="0" maxlength="05"></input>
+                <input for="item3" type="submit">
+            </label>
+            </fieldset>
+
+        
+        </section>
+        <fieldset>
+
+
+        </fieldset>
+
+
+
+    </main>
 
 
 

@@ -1,12 +1,20 @@
-h1{
+h1 , #header-title{
     color:orange;
     text-align:center;
     text-shadow: -7px 4px 3px black;
-    border-bottom: dotted orange; 
+    
+    
 }
 
 body{
-    background-color:#f0eeeb;
+    background-color:#dedcd9;
+    background-image: url("images/beer-pour.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+    
+
 }
 h2{
     color:orange;
@@ -37,6 +45,84 @@ h2{
     color:black;
     
 
+}
+.header-section
+{
+    display:inline;
+    
+    text-align:center;
+    width:auto;
+    
+    
+}
+.header-title
+{
+    
+    justify-content: center;
+    font-size:50px;
+    padding:0%;
+    margin:0%;
+    
+   
+    
+}
+.linkbox
+{
+    
+    justify-content:center;
+    height:auto;
+    width:100%;
+    background-color:  rgb(151, 120, 78);
+    border: dotted 2px  rgb(100, 90, 78);
+    
+    
+    
+}
+.linkbox:active
+{
+    color:green;
+}
+#homelink, #page2link, #shoplink
+{
+    padding:5%;
+    font-size:25px
+    
+}
+.main1
+{
+    font-size:35px;
+    padding:5%;
+    height:auto;
+    
+    
+
+}
+#main-fieldset1
+{
+    font-size:35px;
+    background-color: rgb(151, 120, 78);
+    
+    height:auto;
+    
+
+}
+#banner-img1
+{
+    width:32%;
+    height:auto;
+    float:left;
+
+}
+#header-hr
+{
+    height: 4px;
+    border-color:rgb(151, 120, 78) ;
+    background-color:rgb(151,120,78);
+}
+#div-img-link
+{
+    margin-top:0%;
+    padding-top:0%;
 }
 #navlink:hover{
     animation: navslide;
@@ -76,7 +162,7 @@ h2{
     border: 3px solid;
     width: auto;
     height:auto;
-    margin-left: auto;
+    margin-right: auto;
     max-width:50%;
     background-Color:#ffbe72;
     border-radius:10px;
@@ -90,9 +176,8 @@ h2{
     
 }
 .TBI{
-    float:left;
-    margin-right: 35px;
-    margin-bottom:30px;
+    display:block;
+    margin-left:25%;
     
     animation: Fade;
     animation-duration: 5s;
@@ -242,19 +327,28 @@ button:active{
 {
     font-size: 40px;
 }
+.shop-table
+{
+    background-color: #ffbe72;
+    color:rgb(0, 0, 255);
+
+
+}
 
 
 
-.footer{
-    
-    position: fixed;
-    bottom: 0;
-    left:50%;
-    right:0;
-    background: rgba(3,3,3,3);
-    transform: translatex(-50%);
-    width: 100%;
-    
-    
-    
+
+
+footer{
+    display:inline-block;
+   text-align:center;
+   justify-content: center;
+   border: dotted 4px #ffbe72;
+   background-color: rgb(151, 120, 78);
+   width:80%;
+   margin:10%;
+   margin-top:0;
+   margin-bottom:0;
+   
+   
 }
