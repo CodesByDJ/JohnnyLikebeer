@@ -347,8 +347,19 @@ button:active{
 {
     background-color: #ffbe72;
     color:rgb(0, 0, 255);
+}
+.regform
+{
+    padding:20%;
+    height:200px;
+    
 
-
+}
+label
+{
+    color:green;
+    display:block;
+    font-size:2em;
 }
 
 
