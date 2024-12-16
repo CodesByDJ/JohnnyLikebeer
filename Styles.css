@@ -367,6 +367,11 @@ label
     margin-bottom:5%;
     text-shadow: -6px 2px 11px;
 }
+#address
+{
+    display:block;
+    margin-left:45%;
+}
 .resetbutton, .submitbutton
 {
    display:inline;
