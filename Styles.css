@@ -1,9 +1,29 @@
-h1 , #header-title{
+h1 , .header-title{
     color:orange;
     text-align:center;
     text-shadow: -7px 4px 3px black;
     
     
+    
+}
+.header-title
+{
+    margin-bottom:0%;
+    padding:0;
+    margin:0;
+    
+    
+}
+.fsLogin
+{
+    
+    width:60px;
+    
+    margin-top:0;
+    padding-top:0;
+    float:right;
+
+
 }
 
 body{
@@ -47,15 +67,7 @@ h2{
     
 
 }
-.header-section
-{
-    display:inline;
-    
-    text-align:center;
-    width:auto;
-    
-    
-}
+
 .header-title
 {
     
@@ -69,13 +81,14 @@ h2{
 }
 .linkbox
 {
-    
+    margin-top: 12em;
     justify-content:center;
-    height:auto;
+    height: auto;
     width:100%;
     background-color:  rgb(151, 120, 78);
     border: dotted 2px  rgb(100, 90, 78);
-    
+    text-align:center;
+    width:auto;
     
     
 }
@@ -380,6 +393,11 @@ label
 
 
 }
+.copyright
+{
+    padding:0;
+    margin:0;
+}
 
 
 
@@ -395,6 +413,7 @@ footer{
    margin:10%;
    margin-top:0;
    margin-bottom:0;
+   font-size:2em;
    
    
 }
