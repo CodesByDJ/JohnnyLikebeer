@@ -350,16 +350,30 @@ button:active{
 }
 .regform
 {
-    padding:20%;
-    height:200px;
+    
+   margin:10% 27%;
+   
+    width:500px;
+    
+    background-color:grey;
     
 
 }
 label
 {
-    color:green;
+    color:black;
     display:block;
     font-size:2em;
+    margin-bottom:5%;
+    text-shadow: -6px 2px 11px;
+}
+.resetbutton, .submitbutton
+{
+   display:inline;
+   font-size: 2em;
+   margin-left:20%;
+
+
 }
 
 

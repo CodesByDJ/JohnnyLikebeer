@@ -16,20 +16,35 @@
             <form class="regform">
                 <fieldset >
                     <label for="fname">First Name:
-                         <input type="text" name="fname"></label>
+                         <input type="text" name="fname" placeholder="Spongebob"required></label>
                     <label for="lname">Last Name: 
-                        <input type="text" name="lname"></label>
+                        <input type="text" name="lname" placeholder="Squarepants"required></label>
                     <label for="age">Age: 
-                        <input id="age" type="number"></label>
+                        <input id="age" type="number" min="18" max="120"placeholder="age"required></label>
                     <label for="email">Email: 
-                        <input type="email" name="email"></label>
+                        <input type="email" name="email" placeholder="Email" required></label>
                     <label for="username">Enter a UserName: 
                         <input type="text" placeholder="username"></label>
                     <label for="Password">Enter a Password: 
-                        <input type="password" placeholder="Password"></label>
+                        <input type="password" placeholder="address" required></label>
+                        <label for="address">Enter a address: 
+                            <input type="number" placeholder="number" id="address"required>
+                            <input type="text" placeholder="street name" id="address" required>
+                            <input type="zipcode" placeholder="zipcode" min="5" max="6"id="address" required>
+                        </label>
+                            
+                                
+                                        
+
+
+
+
                 </fieldset>
-                <button type="reset">Reset</button>
-                <button type="submit">Submit</button>
+                <div>
+                    <button class="resetbutton" type="reset">Reset</button>
+                    <button class="submitbutton" type="submit">Submit</button>
+                </div>
+
             </form>
         </section>
 
