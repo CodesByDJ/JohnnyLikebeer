@@ -1,4 +1,4 @@
-h1 , .header-title{
+h1 {
     color:orange;
     text-align:center;
     text-shadow: -7px 4px 3px black;
@@ -8,9 +8,11 @@ h1 , .header-title{
 }
 .header-title
 {
-    margin-bottom:0%;
-    padding:0;
-    margin:0;
+    
+   position: absolute;
+   top:60px;
+   left:33%;
+   
     
     
 }
@@ -24,6 +26,11 @@ h1 , .header-title{
     float:right;
 
 
+}
+#fsLoginButtons
+{
+    display:inline-block;
+   
 }
 
 body{
@@ -84,11 +91,12 @@ h2{
     margin-top: 12em;
     justify-content:center;
     height: auto;
-    width:100%;
+    width:90%;
+    
     background-color:  rgb(151, 120, 78);
-    border: dotted 2px  rgb(100, 90, 78);
+    border: dotted 4px  rgb(100, 90, 78);
     text-align:center;
-    width:auto;
+   
     
     
 }
@@ -99,7 +107,7 @@ h2{
 #homelink, #page2link, #shoplink
 {
     padding:5%;
-    font-size:25px
+    font-size:30px
     
 }
 .main1
@@ -127,12 +135,7 @@ h2{
     float:left;
 
 }
-#header-hr
-{
-    height: 4px;
-    border-color:rgb(151, 120, 78) ;
-    background-color:rgb(151,120,78);
-}
+
 #div-img-link
 {
     margin-top:0%;
@@ -274,6 +277,33 @@ button:active{
     height: 50px;
     border-radius: 35px;
 }
+#submitbutton
+{
+    
+    font-size:20px;
+    background-color: black;
+    color:green;
+
+}
+#submitbutton:hover
+{
+    color:white;
+    background-color:orange;
+}
+#registerbutton
+{
+    
+    font-size:20px;
+    background-color: black;
+    color:green;
+}
+#registerbutton:hover
+{
+
+    color:white;
+    background-color:orange;
+}
+
 #FB{
     color:#ffbe72
     
@@ -409,8 +439,8 @@ footer{
    justify-content: center;
    border: dotted 4px #ffbe72;
    background-color: rgb(151, 120, 78);
-   width:80%;
-   margin:10%;
+   width:90%;
+  margin-left: 5%;
    margin-top:0;
    margin-bottom:0;
    font-size:2em;
