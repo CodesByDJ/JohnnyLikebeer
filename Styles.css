@@ -43,6 +43,12 @@ body{
     
 
 }
+#BM
+{
+    background-image:none;
+    background-color:gainsboro;
+
+}
 h2{
     color:orange;
     font-family: 'Times New Roman', Times, serif;
@@ -446,4 +452,14 @@ footer{
    font-size:2em;
    
    
+}
+#BM
+{
+    margin:10%;
+    justify-content: center;
+    width:80%;
+    height:80%;
+    background-color:maroon;
+    border: 3px solid black ;
+
 }
