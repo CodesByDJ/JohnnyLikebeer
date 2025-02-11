@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-const
-=======
 let navslide = document.getElementById("navlink4").onmouseover;
 let isOver = false;
 let nameChange = document.getElementbyid("nameChange").textcontent;
@@ -32,7 +29,6 @@ if(navslide = true)
 
 }
 let comment;
->>>>>>> 425d90e2418ca81c2c606776d6755d7117f89576
 
 document.getElementById("submitButton").onclick = function()
 {
