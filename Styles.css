@@ -35,11 +35,7 @@ h1 {
 
 body{
     background-color:#dedcd9;
-    background-image: url("images/beer-pour.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment:fixed;
-    background-size:cover;
+   
     
 
 }
@@ -80,6 +76,14 @@ h2{
     
 
 }
+.header-section-title
+{
+    padding:5px;
+    transform:(-50%,0) ;
+    
+    margin-right:5%;
+
+}
 
 .header-title
 {
@@ -88,7 +92,9 @@ h2{
     font-size:50px;
     padding:0%;
     margin:0%;
-    
+    align-items: center;
+    margin-right:20%;
+    transform:(-50%,0)
    
     
 }
@@ -129,6 +135,8 @@ h2{
 {
     font-size:35px;
     background-color: rgb(151, 120, 78);
+    width:400px;
+   display:block;
     
     height:auto;
     
@@ -144,8 +152,18 @@ h2{
 
 #div-img-link
 {
-    margin-top:0%;
-    padding-top:0%;
+    
+    
+    height:400px;
+    
+}
+.img-banner-imgs
+{
+    border: 5px solid wheat;
+    height:fit-content;
+    display:block;
+    justify-content:center;
+
 }
 #navlink:hover{
     animation: navslide;
