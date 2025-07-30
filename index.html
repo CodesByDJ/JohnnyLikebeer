@@ -1,89 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles.css">
-    <script src="index.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="Styles.css" />
+    <script defer src="index.js"></script>
     <title>JohnnyLikeBeer</title>
-
-</head>
-
-    <header>
-        <section class="header-section-title">
-             <h1 class="header-title">This is a new beer</h1>
-        </section>
-        
-           
-            <fieldset class="fsLogin">
-                
-                <label>Username: <input type="text"></label>
-                <label>Password: <input type="password"></label>
-                <div id="fsLoginButtons">
-                    <button type="submit" id="submitbutton">Submit</button>
-                    <a href="Registration.html" ><button type="register" id="registerbutton">Register</button></a>
-                </div>
-            </fieldset>
-            
-        <section class="header-section">    
-            <br>
-            <nav class="linkbox">
-                <a id="homelink" name="HomePage"href="index.html">Home</a>
-                <a id="page2link" name="Page 2 link"href="Page2.html">Page 2</a>
-                <a id="shoplink" name="Shop link"href="shop.html">Shop</a>
-                
-            </nav>
-        </section>
-    </header>
-<body>
-
-   
-   
-
-<main class="main1">
-    <section id="div-img-link">
-        <fieldset class="img-banner-imgs">
-            <a href="index.html"><img src="images/Storrowed.jpg" id="banner-img1" alt="flight of beer"></a>
-            <a href="page2.html"><img src="images/DeepHazy.jpg" id="banner-img1" alt="flight of beer"></a>
-            <a href="shop.html"><img src="images/Bloodlessv.jpg" id="banner-img1" alt="flight of beer"> </a>
-        </fieldset>
-        </section>
-     
-     <section>
-        
-        <fieldset id="main-fieldset1">
-            <img src="images/HazyDreamState.jpg" id="banner-img1" name="TBI" alt="picture of beer">
-            <article>
-                <P>When lives gives you hops, you make a good beer.</P>
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum a dolorem, quas assumenda, inventore rerum fugiat voluptatem delectus id aut sequi eaque adipisci magnam blanditiis commodi autem quia dolorum. Id.</p>
-            </article>
-            
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos consectetur, praesentium enim culpa illo recusandae non repellat velit, officia esse reprehenderit rem? Quidem harum eveniet cum corporis eum omnis unde!</p>
-
-
-        </fieldset>
-       
+  </head>
+  <body>
+    <!--Start of Header Box-->
+    <section class="header">
+      <div class="header__titlebox">
+        <h1>Better Beer Ready</h1>
+      </div>
+      <div class="header__linkbox">
+        <div class="header__link-home">
+          <a id="header__link" href="index.html">Home</a>
+        </div>
+        <div class="header__link-page2">
+          <a id="header__link" href="Page2.html">Page 2</a>
+        </div>
+        <div class="header__link-contact">
+          <a id="header__link" href="shop.html">Contact Us</a>
+        </div>
+      </div>
     </section>
+    <!--End of Header Box-->
+    <!--Start of Feed Box-->
+    <section class="feedbox">
+      <!--Start of Feed Box Images-->
+      <section class="feedbox__imgwheel">
+        <div class="feedbox__imgbox">
+          <img src="/images/Pliny.jpg" />
+          <img src="/images/DeepHazy.jpg" />
+          <img src="/images/HazyDreamState.jpg" />
+        </div>
+      </section>
+      <!--End of Feed Box Images-->
+      <!--START OF FEED BOX CONTENT-->
+      <section class="feedbox__content"></section>
+      <!--END OF FEED BOX CONTENT-->
+    </section>
+    <!--End of Feed Box-->
+    <!--Start of FeedBox Content-->
+  </body>
+  <!--End OF BODY-->
 
-
-</main>
-
-
-
-
-
-    
-</body>
-    <footer>
- 
-        <p class="copyright">copyright</p>
-        <nav>
-            <a id="homelink" href="index.html">Home</a>
-            <a id="page2link" href="Page2.html">Page 2</a>
-            <a id="shoplink" href="shop.html">Shop</a>
-        </nav>
-
-    </footer>
-
-    
+  <footer>
+    <p class="copyright">copyright</p>
+    <nav></nav>
+  </footer>
 </html>
