@@ -1,4 +1,16 @@
 .header {
+  position:relative;
+  max-width:100%;
+  width: 100%;
+ z-index:0;
+}
+.header__linkslogo
+{
+  font-size: 1em;
+  color: white;
+}
+.header__floatbox
+{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +27,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(45deg, #2c1b02, #d48400);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
